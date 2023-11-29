@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "costsensitiveclassificationmodified"
+version = "0.1.0"
+description = "This is the CostSensitive Classification library modified by Breo to solve the joblib import error"
+authors = ["breogan <breogan.pardo_alvarez@roche.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.26.2"
+pandas = "^2.1.3"
+scikit-learn = "^1.3.2"
+pyea = "^0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
